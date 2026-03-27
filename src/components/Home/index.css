@@ -1,0 +1,74 @@
+/* Write your CSS code here */
+
+* {
+  font-family: 'Roboto';
+  font-size: 0px;
+  color: green;
+  font-weight: 300;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.descriptions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.Home-page-img {
+  width: 350px;
+  height: 400px;
+  margin: 20px;
+}
+
+.home-page-heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  margin: 15px;
+}
+
+.description {
+  font-family: monospace;
+  font-size: 20px;
+  color: #64748b;
+  font-weight: bold;
+  font-style: italic;
+  margin: 15px;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  color: aliceblue;
+  background-color: #0b69ff;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px;
+}

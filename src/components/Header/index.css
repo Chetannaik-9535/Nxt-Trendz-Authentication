@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+
+* {
+  font-family: 'Roboto';
+  font-size: 0px;
+  color: green;
+  font-weight: bold;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App-Header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  list-style-type: none;
+}
+
+.img-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.website-logo {
+  height: 70px;
+  width: 190px;
+  margin: 20px;
+}
+
+.heading {
+  font-family: monospace;
+  font-size: 25px;
+  color: #475569;
+  font-weight: bold;
+  font-style: italic;
+  margin: 15px;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  color: aliceblue;
+  background-color: #0b69ff;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
